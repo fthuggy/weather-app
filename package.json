@@ -8,6 +8,7 @@
     "start": "webpack serve --open"
   },
   "devDependencies": {
+    "eslint": "^9.14.0",
     "webpack-dev-server": "^5.1.0"
   }
 }
