@@ -9,26 +9,24 @@ body {
   grid-template-columns: 500px 500px;
   justify-content: center;
 }
+
 #cityInput {
-  margin-left: 5px;
   padding: 5px;
+  font-size: 18px;
+  border: 3px solid #1e1b4b;
 }
 
 h1 {
   color: #1e1b4b;
   font-size: 35px;
 }
-#results,
-#error {
-  color: white;
-}
 
 .btn {
   background-color: #1e1b4b;
   color: white;
   border: none;
-  padding: 5px;
-}
+  padding: 10px;
+ }
 .bottom-right-image {
   position: fixed;
   bottom: 10px;
@@ -42,5 +40,9 @@ h1 {
   right: 10px;
   width: 70vh;
   height: auto;
+}
 
+#results {
+  font-size: 18px;
+  color: white;
 }
