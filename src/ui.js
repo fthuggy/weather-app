@@ -9,6 +9,7 @@ export function displayWeatherData(data, resultsDiv) {
       resultsDiv.innerHTML = `
         <h2>Weather in ${data.resolvedAddress}</h2>
         <p><strong>Temperature:</strong> ${data.currentConditions.temp}°C</p>
+         <p><strong>Feels Like:</strong> ${data.currentConditions.feelslike}°C</p>
         <p><strong>Weather:</strong> ${data.currentConditions.conditions}</p>
         <p><strong>Wind Speed:</strong> ${data.currentConditions.windspeed} km/h</p>
       `;
@@ -22,6 +23,7 @@ export function displayWeatherData(data, resultsDiv) {
       resultsDiv.innerHTML = `
         <h2>Weather in ${data.resolvedAddress}</h2>
         <p><strong>Temperature:</strong> ${currentDay.temp}°C</p>
+        <p><strong>Feels Like:</strong> ${currentDay.feelslike}°C</p>
         <p><strong>Weather:</strong> ${currentDay.conditions}</p>
         <p><strong>Wind Speed:</strong> ${currentDay.windspeed} km/h</p>
       `;
