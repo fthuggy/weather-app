@@ -1,5 +1,46 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #c084fc;
+  background-color: #60a5fa;
+  font-family: "Poppins", sans-serif;
+}
+.weather-grid {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+}
+#cityInput {
+  margin-left: 5px;
+  padding: 5px;
+}
+
+h1 {
+  color: #1e1b4b;
+  font-size: 35px;
+}
+#results,
+#error {
+  color: white;
+}
+
+.btn {
+  background-color: #1e1b4b;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+.bottom-right-image {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  height: auto;
+}
+.bottom-right-image {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 70vh;
+  height: auto;
+
 }
