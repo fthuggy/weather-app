@@ -5,8 +5,9 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "build": "webpack",
-    "start": "webpack serve"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "npm run build"
   },
   "devDependencies": {
     "css-loader": "^7.1.2",
